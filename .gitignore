@@ -1,0 +1,7 @@
+.venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+# >100MB, GitHub limit
+1/datasets/cifar10.npz
+srs/data/hf/data/*.parquet
