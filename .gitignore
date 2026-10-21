@@ -9,3 +9,4 @@ comp-vision/srs/data/hf/data/*.parquet
 /*
 !/comp-vision
 !/.gitignore
+comp-vision/8/data/
