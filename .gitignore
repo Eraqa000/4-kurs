@@ -3,5 +3,9 @@
 __pycache__/
 .ipynb_checkpoints/
 # >100MB, GitHub limit
-1/datasets/cifar10.npz
-srs/data/hf/data/*.parquet
+comp-vision/1/datasets/cifar10.npz
+comp-vision/srs/data/hf/data/*.parquet
+# only comp-vision is tracked
+/*
+!/comp-vision
+!/.gitignore
