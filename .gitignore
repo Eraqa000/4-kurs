@@ -8,5 +8,9 @@ comp-vision/srs/data/hf/data/*.parquet
 # only comp-vision is tracked
 /*
 !/comp-vision
+!/comp-people
 !/.gitignore
 comp-vision/8/data/
+# in comp-people only srs is tracked
+comp-people/*
+!comp-people/srs
